@@ -44,17 +44,17 @@ int main()
         myTemp.setc(tTemp);
 
     // declaring string
-    string a;
+    string aString;
 
     // return statements based on answer in range
     if (myTemp.getc() < 0)
-        a="cold";
+        aString="cold";
     else if (myTemp.getc() > 30)
-        a="hot";
+        aString="hot";
     else
-        a="beautiful";
+        aString="beautiful";
 
-    cout << "Hello, " << a << " World!" << endl;
+    cout << "Hello, " << aString << " World!" << endl;
     return 0;
 }
 
