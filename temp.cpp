@@ -16,3 +16,7 @@ void temp::setf(double p) {
 double temp::getc() const {
     return (f- 32) *(5.0/9.0);
 }
+
+void temp::setc(int c) {
+    f = c * (9.0 / 5.0) + 32;
+}
