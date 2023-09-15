@@ -3,7 +3,6 @@
 //
 #include "temp.h"
 
-
 temp::temp() :f(32) {}
 
 double temp::getf() const {
