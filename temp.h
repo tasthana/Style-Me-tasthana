@@ -5,7 +5,6 @@
 #ifndef STYLE_ME_TEMP_H
 #define STYLE_ME_TEMP_H
 
-#endif //STYLE_ME_TEMP_H
 
 
 class temp{
@@ -21,3 +20,5 @@ public:
     void setc(int c);
 
 };
+
+#endif //STYLE_ME_TEMP_H

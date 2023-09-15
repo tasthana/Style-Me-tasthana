@@ -1,9 +1,9 @@
 //
 // Created by Tushar Asthana  on 9/14/23.
 //
-
-
 #include "temp.h"
+
+
 temp::temp() :f(32) {}
 
 double temp::getf() const {
